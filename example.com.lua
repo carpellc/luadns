@@ -5,14 +5,15 @@
 -- _a = "example.com"
 
 -- A records
-a(_a, "1.2.3.4")
+a(_a, "66.96.162.248")
+
 
 -- CNAME records
 cname("www", _a)
 
 -- CAA records
 caa("", "letsencrypt.org", "issue")
-caa("", "mailto:joe@example.com", "iodef")
+caa("", "mailto:netadmin@seizethechains.com", "iodef")
 
 -- Templates (see templates.lua)
 google_app(_a)
