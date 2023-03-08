@@ -6,6 +6,7 @@
 
 -- A records
 a(_a, "66.96.162.248")
+a(zues,"127.0.0.0")
 
 
 -- CNAME records
