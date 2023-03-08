@@ -1,5 +1,5 @@
  function pobox_app(domain)
-  -- Configure mail exchangers for pobox:
+  -- Configure mail exchangers for pobox
   -- https://www.pobox.help/hc/en-us/articles/360058663514-Pobox-s-MX-records
   mx(domain, "mx-1.pobox.com", 10)
   mx(domain, "mx-2.pobox.com", 10)

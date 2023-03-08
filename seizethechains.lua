@@ -16,4 +16,4 @@ caa("", "letsencrypt.org", "issue")
 caa("", "mailto:netadmin@seizethechains.com", "iodef")
 
 -- Templates (see templates.lua)
-google_app(_a)
+pobox_app(_a)
