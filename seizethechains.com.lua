@@ -16,9 +16,9 @@ caa("", "letsencrypt.org", "issue")
 caa("", "mailto:netadmin@seizethechains.com", "iodef")
 
 -- DKIM records
-cname("fm1_domainkey", "fm1.carpellc.com.dkim.fmhosted.com")
-cname("fm2_domainkey", "fm2.carpellc.com.dkim.fmhosted.com")
-cname("fm3_domainkey", "fm3.carpellc.com.dkim.fmhosted.com")
+cname("fm1._domainkey", "fm1.carpellc.com.dkim.fmhosted.com")
+cname("fm2._domainkey", "fm2.carpellc.com.dkim.fmhosted.com")
+cname("fm3._domainkey", "fm3.carpellc.com.dkim.fmhosted.com")
 
 -- SPF records
 txt(_a, "v=spf1 include:spf.messagingengine.com ?all")
