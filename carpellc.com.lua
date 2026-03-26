@@ -16,5 +16,13 @@ cname("www", _a)
 caa("", "letsencrypt.org", "issue")
 caa("", "mailto:netadmin@seizethechains.com", "iodef")
 
+-- DKIM records
+cname("fm1_domainkey", "fm1.carpellc.com.dkim.fmhosted.com")
+cname("fm2_domainkey", "fm2.carpellc.com.dkim.fmhosted.com")
+cname("fm3_domainkey", "fm3.carpellc.com.dkim.fmhosted.com")
+
+-- SPF records
+spf(_a, "v=spf1 include:spf.messagingengine.com ?all")
+
 -- Templates (see templates.lua)
-pobox_app(_a)
+fastmail_app(_a)
