@@ -21,7 +21,7 @@ cname("fm2_domainkey", "fm2.carpellc.com.dkim.fmhosted.com")
 cname("fm3_domainkey", "fm3.carpellc.com.dkim.fmhosted.com")
 
 -- SPF records
-spf(_a, "v=spf1 include:spf.messagingengine.com ?all")
+txt(_a, "v=spf1 include:spf.messagingengine.com ?all")
 
 -- Templates (see templates.lua)
 fastmail_app(_a)
